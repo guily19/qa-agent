@@ -1,0 +1,38 @@
+{
+  "name": "qa-automation",
+  "version": "1.0.0",
+  "description": "Automated QA testing tool that validates JIRA acceptance criteria against live portals",
+  "main": "server.ts",
+  "scripts": {
+    "dev": "tsx watch server.ts",
+    "start": "tsx server.ts",
+    "build": "tsc",
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "keywords": [
+    "qa",
+    "automation",
+    "jira",
+    "testing",
+    "puppeteer",
+    "ai"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.68.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "jira-client": "^8.2.2",
+    "puppeteer": "^23.0.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.5",
+    "@types/node": "^24.10.0",
+    "tsx": "^4.20.6",
+    "typescript": "^5.6.3"
+  }
+}
+

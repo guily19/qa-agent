@@ -1,0 +1,22 @@
+# JIRA Configuration
+# Get your JIRA host from your Atlassian URL (e.g., company.atlassian.net)
+JIRA_HOST=your-company.atlassian.net
+
+# Your JIRA email address
+JIRA_EMAIL=your.email@company.com
+
+# Create an API token at: https://id.atlassian.com/manage-profile/security/api-tokens
+JIRA_API_TOKEN=your_jira_api_token_here
+
+# Anthropic API Key
+# Get your API key from: https://console.anthropic.com/
+ANTHROPIC_API_KEY=your_anthropic_api_key_here
+
+# Server Configuration
+PORT=3000
+NODE_ENV=development
+
+# Optional: Debug mode (set to true to see browser during testing)
+DEBUG_JIRA=false
+DEBUG_PUPPETEER=false
+
